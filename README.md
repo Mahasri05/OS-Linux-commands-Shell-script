@@ -156,6 +156,7 @@ cat newfile | grep -i -c "hello"
 
 grep -R ubuntu /etc
 ## OUTPUT
+grep![Screenshot from 2025-04-18 18-32-53](https://github.com/user-attachments/assets/d9bb1cc3-e10a-42de-981c-c8fc9d673e4d)
 
 
 
@@ -244,10 +245,12 @@ egrep 'Linux.*World' newfile
 egrep l{2} newfile
 ## OUTPUT
 
+egrep![Screenshot from 2025-04-18 18-34-31](https://github.com/user-attachments/assets/5b5b5b51-6f63-49e6-ae35-b9e858ee7e29)
 
 
 egrep 's{1,2}' newfile
 ## OUTPUT 
+![Screenshot from 2025-04-18 18-35-20](https://github.com/user-attachments/assets/bd5a2144-e6e9-4264-be87-291becdaa05e)
 
 
 cat > file23
@@ -420,6 +423,7 @@ cat urllist.txt | tr -d ' ' | tr -s '.'
 #Backup commands
 tar -cvf backup.tar *
 ## OUTPUT
+![Screenshot from 2025-04-18 18-37-27](https://github.com/user-attachments/assets/67a5923d-828a-4b74-bf15-75c0b391cf36)
 
 
 mkdir backupdir
@@ -428,10 +432,12 @@ mv backup.tar backupdir
  
 tar -tvf backup.tar
 ## OUTPUT
+![Screenshot from 2025-04-18 18-37-27](https://github.com/user-attachments/assets/838094d6-16ca-4ad5-9873-69fc9ea7048c)
 
 
 tar -xvf backup.tar
 ## OUTPUT
+![Screenshot from 2025-04-18 18-37-27](https://github.com/user-attachments/assets/112f73f8-4d18-4118-881f-252608110ae9)
 
 gzip backup.tar
 
@@ -440,6 +446,7 @@ ls .gz
  
 gunzip backup.tar.gz
 ## OUTPUT
+![Screenshot from 2025-04-18 18-37-27](https://github.com/user-attachments/assets/04311ef4-fd2e-478e-affe-eae1d1711571)
 
  
 # Shell Script
@@ -450,6 +457,7 @@ echo 'echo Hello World‘; exit 0 >> my-script.sh
 chmod 755 my-script.sh
 ./my-script.sh
 ## OUTPUT
+![Screenshot from 2025-04-18 18-39-29](https://github.com/user-attachments/assets/18256c31-eb39-4a42-9c20-771d8f76bf8c)
 
  
 cat << stop > herecheck.txt
