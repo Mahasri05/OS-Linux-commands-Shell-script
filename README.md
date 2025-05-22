@@ -18,7 +18,7 @@ Execute the following commands
 
 ### Step 3:
 
-Testing the commands for the desired output. 
+Testing the commands for the desired output.
 
 # COMMANDS:
 ### Create the following files file1, file2 as follows:
